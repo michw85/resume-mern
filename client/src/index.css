@@ -1,0 +1,355 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.grey-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.grey-input + label{
+    color: #fff!important;
+}
+
+input.grey-input:focus + label{
+    color: #cacabf !important;
+}
+
+input.grey-input:focus {
+    border-bottom: 1px solid #CACABF !important;
+    box-shadow: 0 1px 0 0 #CACABF!important;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .main-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+  }
+  
+  /* Main content section */
+  .main-content-section{
+    padding: 50px 40px;
+  }
+  
+  .main-content-title{
+    font-style: normal;
+    font-weight: bold; 
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .main-content-smalltitle {
+    font-size: 22px;
+    color: #FB6D3A;
+  }
+  
+  .main-content-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+  }
+  
+  .main-content-divider{
+    color: #000;
+  }
+  
+  /* About me section */
+  .about-me-section{
+    margin-bottom: 40px;
+  }
+  
+  .about-me-profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  
+  .about-me-description{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+  
+  /* My project section */
+  .my-project-section{
+    margin-bottom: 50px;
+  }
+  
+  .my-project-list{
+    padding: 0 0 0 17px;
+  }
+  
+  .my-project-item{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .my-project-content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+  }
+  
+  .my-project-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+  }
+  
+  .my-project-brecket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .my-img-link{
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: 600px;
+  }
+  
+  .my-img-link:hover {
+    transform: scale(1.05);
+  }
+  
+  .my-img-link2{
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+  }
+  
+  .my-img-link2:hover {
+    transform: scale(1.1);
+  }
+  
+  .my-img-link3{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: 800px;
+  }
+  
+  .my-img-link3:hover {
+    transform: scale(1.02);
+  }
+  
+  .my-img-link4{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: 500px;
+  }
+  
+  .my-img-link4:hover {
+    height: 700px;
+    min-width: 300px;
+  }
+  
+  
+  
+  /* My work experience section */
+  .my-work-experience-section{
+    margin-bottom: 45px;
+  }
+  
+  .my-work-experience-company-block{
+    margin-bottom: 15px;
+  }
+  
+  .my-work-experience-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .my-work-experience-company{
+    color: #FB6D3A;
+  }
+  
+  .my-work-experience-lists{
+    padding-left: 18px;
+  }
+  
+  .my-work-experience-list-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+  
+  /* My education section */
+  .my-education-university{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+  }
+  
+  .my-education-speciality{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  /* My contacts section */
+  .my-contacts-section {
+    margin-bottom: 45px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .my-contacts-type {
+    color: #FB6D3A;
+    margin: 20px 0 5px 0;
+  }
+  
+  .my-contacts-content {
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .my-contacts-description {
+    margin-bottom: 10px;
+  }
+  
+  .fromBasicEmail {
+    margin-top: 10px;
+  }
+  
+  .fromBasicPassword {
+    margin-top: 10px;
+  }
+  
+  .fromBasicChackbox {
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  .cont_footer {
+    max-width: 1920px!important;
+  }
+
+  /* Home */
+  .nav-wrapper{
+    width: 100%;
+    display: flex;
+  }
+
+  .brand-logo {
+      position: relative!important;
+  }
+
+  .navig a:hover {
+      color: #A8A8A8;
+  }
+
+  .slider {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+  @media only screen and (max-width: 992px){
+      nav{
+          line-height: 30px!important;
+      }
+
+    nav .brand-logo {
+    left: 0;
+     transform: translateX(0);
+    }
+
+    .slide{
+        width: 80px;
+    }
+
+  }
+  @media only screen and (max-width: 620px){
+    nav .nav-wrapper{
+        display: block;
+      }
+    nav .brand-logo {
+    font-size: 1.5rem;
+
+    }
+    nav .nav-wrapper{
+        height: 90px;
+      }
+  }
+      
+/* Authorization */
+  
+.row {
+  padding-top: 120px;
+  padding-bottom: 130px;  
+  max-width: 700px;
+}
+
+.row .col.offset-s3 {
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}

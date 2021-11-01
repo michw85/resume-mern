@@ -35,39 +35,39 @@ export const HomePage = () => {
   return (
     <>
       <Slider />
-      <div class="main-content-section">
-        <div class="my-work-experience-section">
+      <div class="home-stack-section">
+        <div class="my-home-stack-section">
           <h3 class="main-content-title">
             Stack of technologies used to create that site
           </h3>
-          <div class="my-work-experience-company-block">
-            <h4 class="my-work-experience-position">
+          <div class="my-home-stack-block">
+            <h4 class="my-home-stack-position">
               MERN:{" "}
-              <span class="my-work-experience-company">
+              <span class="my-home-stack-company">
                 MongoDB, ExpressJS, ReactJS, NodeJS
               </span>
             </h4>
-            <ul class="my-work-experience-lists">
-              <li class="my-work-experience-list-item">
+            <ul class="my-home-stack-lists">
+              <li class="my-home-stack-list-item">
                 Backend:
                 <p>
-                  Node.js, Express.js, Middleware
+                  Node.js, Express.js, Middlewares
                 </p>
               </li>
-              <li class="my-work-experience-list-item">
+              <li class="my-home-stack-list-item">
                 Database: 
                 <p>MongoDB, Mongoose</p>
               </li>
-              <li class="my-work-experience-list-item">
+              <li class="my-home-stack-list-item">
                 Frontend:
                 <p>
                   Authorization, React.js, Fetch, Hooks, WebToken
                 </p>
               </li>
-              <li class="my-work-experience-list-item">
+              <li class="my-home-stack-list-item">
                 <p>HTML, CSS, JavaScrypt, JSX </p>
               </li>
-              <li class="my-work-experience-list-item">
+              <li class="my-home-stack-list-item">
                 Libraries
                 <p>npm: materializecss, bootstrap, jsonwebtoken, express-validator, bcryptjs </p>
               </li>

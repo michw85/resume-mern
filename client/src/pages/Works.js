@@ -106,7 +106,7 @@ const reactApp = [
 
   {
     id: 4,
-    site: "Todo-list",
+    site: "Site resume-ReactJS",
     secondSite: "https://github.com/michw85/react-resume",
     content:
       "HTML5, CSS3, JavaScript, React, Node.js, react-bootstrap, hooks, router",

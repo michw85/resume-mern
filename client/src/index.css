@@ -1,23 +1,5 @@
 @import "~materialize-css/dist/css/materialize.min.css";
 
-input.grey-input {
-    border-bottom: 1px solid #fff!important;
-    box-shadow: 0 1px 0 0 #fff!important;
-}
-
-input.grey-input + label{
-    color: #fff!important;
-}
-
-input.grey-input:focus + label{
-    color: #cacabf !important;
-}
-
-input.grey-input:focus {
-    border-bottom: 1px solid #CACABF !important;
-    box-shadow: 0 1px 0 0 #CACABF!important;
-}
-
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +20,143 @@ body {
     background-color: #fff;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     margin: 40px auto;
+    padding: 0 20px 0 20px;
   }
+
+  /* Home */
+  
+  .nav-wrapper{
+    width: 100%;
+    display: flex;
+  }
+
+  .brand-logo {
+      position: relative!important;
+  }
+
+  .navig a:hover {
+      color: #A8A8A8;
+  }
+
+  .slider {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+  @media only screen and (max-width: 992px){
+      nav{
+          line-height: 30px!important;
+      }
+
+    nav .brand-logo {
+    left: 0;
+     transform: translateX(0);
+    }
+
+    .slide{
+        width: 80px;
+    }
+
+    .row_auth{
+      padding: 20px!important;
+      max-width: 400px;
+    }
+
+  }
+  @media only screen and (max-width: 620px){
+    nav .nav-wrapper{
+        display: block;
+      }
+    nav .brand-logo {
+    font-size: 1.5rem;
+
+    }
+    nav .nav-wrapper{
+        height: 90px;
+      }
+  }
+
+  .home-stack-section{
+    padding: 20px;
+  }
+
+  .my-home-stack-section{
+    margin-bottom: 5px;
+  }
+  
+  .my-home-stack-block{
+    margin-bottom: 15px;
+  }
+  
+  .my-home-stack-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .my-home-stack-company{
+    color: #FB6D3A;
+  }
+  
+  .my-home-stack-lists{
+    padding-left: 18px;
+  }
+  
+  .my-home-stack-list-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+
+  .row {
+    padding: 10px;
+    max-width: 700px;
+  }
+
+  .row .col.offset-s2{
+    margin-left: 5%;
+    margin-right: 5%; 
+  }
+  
+      
+/* Authorization */
+.row_auth{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 700px;
+}
+
+.row .col.offset-s3 {
+  margin-left: 5%;
+  margin-right: 5%; 
+}
+
+input.grey-input {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.grey-input + label{
+  color: #fff!important;
+}
+
+input.grey-input:focus + label{
+  color: #cacabf !important;
+}
+
+input.grey-input:focus {
+  border-bottom: 1px solid #CACABF !important;
+  box-shadow: 0 1px 0 0 #CACABF!important;
+}
   
   /* Main content section */
   .main-content-section{
@@ -288,107 +406,3 @@ body {
   .cont_footer {
     max-width: 1920px!important;
   }
-
-  /* Home */
-  
-  .nav-wrapper{
-    width: 100%;
-    display: flex;
-  }
-
-  .brand-logo {
-      position: relative!important;
-  }
-
-  .navig a:hover {
-      color: #A8A8A8;
-  }
-
-  .slider {
-    width: 100%;
-    height: 100%;
-    margin: 20px auto;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-    overflow: hidden;
-}
-  @media only screen and (max-width: 992px){
-      nav{
-          line-height: 30px!important;
-      }
-
-    nav .brand-logo {
-    left: 0;
-     transform: translateX(0);
-    }
-
-    .slide{
-        width: 80px;
-    }
-
-  }
-  @media only screen and (max-width: 620px){
-    nav .nav-wrapper{
-        display: block;
-      }
-    nav .brand-logo {
-    font-size: 1.5rem;
-
-    }
-    nav .nav-wrapper{
-        height: 90px;
-      }
-  }
-
-  .home-stack-section{
-    padding: 20px;
-  }
-
-  .my-home-stack-section{
-    margin-bottom: 5px;
-  }
-  
-  .my-home-stack-block{
-    margin-bottom: 15px;
-  }
-  
-  .my-home-stack-position{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-  
-  .my-home-stack-company{
-    color: #FB6D3A;
-  }
-  
-  .my-home-stack-lists{
-    padding-left: 18px;
-  }
-  
-  .my-home-stack-list-item{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-  }
-  
-      
-/* Authorization */
-  
-.row {
-  padding: 10px;
-  max-width: 700px;
-}
-
-.row .col.offset-s3 .col.offset-s2{
-  margin-left: 5%;
-  margin-right: 5%;
-  
-}
-

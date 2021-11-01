@@ -45,7 +45,7 @@ export const AuthPage = () => {
     }
 
     return (
-        <div className="row">
+        <div className="row_auth">
             <div className="col s6 offset-s3">
                 <h3>Welcome to the resume site</h3>
                 <div className="card blue-grey darken-1">

@@ -1,8 +1,8 @@
 import React from "react";
 
-const styles = {
-         span: { className: "my-work-experience-company" }
-}
+// const styles = {
+//          span: { className: "my-work-experience-company" }
+// }
 export const Experience = () => {
   return (
     <div class="main-content-section">

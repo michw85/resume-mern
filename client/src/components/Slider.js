@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
-import { Carousel } from "react-bootstrap" // option 2
+// import React, { useState, useEffect } from "react"
+// import { Carousel } from "react-bootstrap" // option 2
 import SimpleImageSlider from "react-simple-image-slider"
 import slide1 from "../img/slider7.jpg"
 import slide2 from "../img/slider6.jpg"

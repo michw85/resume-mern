@@ -23,7 +23,8 @@ if (process.env.NODE_ENV === 'prodaction') {
     })
 }
 
-const PORT = config.get('port') || 5000
+// const PORT = config.get('port') || 5000
+const PORT = process.env.PORT || 80 // for Heroku
 
 async function start() {
     try{
